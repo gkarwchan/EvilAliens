@@ -1,0 +1,35 @@
+@import '../../components/variables.css';
+
+.speedCounterPage {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* background-color: rgb(238, 38, 115); */
+}
+
+.wrapperCounter {
+  color: white;
+  margin: auto;
+  padding: 1em;
+  border: 1px solid;
+  width: 250px;
+  background-color: rgb(39, 45, 53);
+  font-size: 1.6em;
+  text-align: center;
+}
+
+.buttonAsLink {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+
+  /* optional */
+  font-family: arial, sans-serif;
+
+  /* input has OS specific font-family */
+  color: lightblue;
+  text-decoration: underline;
+  cursor: pointer;
+}

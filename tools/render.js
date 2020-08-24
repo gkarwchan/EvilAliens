@@ -24,6 +24,7 @@ import runServer from './runServer';
 const routes = [
   '/',
   '/contact',
+  '/speedCounter',
   '/login',
   '/register',
   '/about',
